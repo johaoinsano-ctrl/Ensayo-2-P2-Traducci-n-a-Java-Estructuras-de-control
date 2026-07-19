@@ -8,7 +8,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author Fernando Yadiel Delgado Herrera
+ * @author Johao Smith Urbina González
  */
 public class Ejercicio7EstrucControl {
 
