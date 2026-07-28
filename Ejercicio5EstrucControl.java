@@ -2,22 +2,20 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  */
 
-package com.mycompany.ejercicio5estruccontrol;
-
 import java.util.Scanner;
 
 /**
  *
  * @author Johao Smith Urbina González
  */
-public class Ejercicio5EstrucControl {
+public class Main {
 
     public static void main(String[] args) {
-    Scanner teclado = new Scanner(System.in);
- 
+        Scanner teclado = new Scanner(System.in);
+
         System.out.print("Ingrese una calificacion entre 0 y 10: ");
         double calificacion = Double.parseDouble(teclado.nextLine());
- 
+
         if (calificacion >= 9 && calificacion <= 10) {
             System.out.println("Excelente");
         } else if (calificacion >= 8 && calificacion < 9) {
@@ -32,5 +30,4 @@ public class Ejercicio5EstrucControl {
             System.out.println("Calificacion invalida");
         }
     }
-}    
-
+}
