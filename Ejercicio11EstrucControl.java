@@ -2,15 +2,13 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  */
 
-package com.mycompany.ejercicio11estruccontrol;
-
 import java.util.Scanner;
 
 /**
  *
  * @author Johao Smith Urbina González
  */
-public class Ejercicio11EstrucControl {
+public class Main {
 
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
@@ -28,6 +26,7 @@ public class Ejercicio11EstrucControl {
             if (numero > mayor) {
                 mayor = numero;
             }
+
             if (numero < menor) {
                 menor = numero;
             }
