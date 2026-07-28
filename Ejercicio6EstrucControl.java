@@ -2,22 +2,20 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  */
 
-package com.mycompany.ejercicio6estruccontrol;
-
 import java.util.Scanner;
 
 /**
  *
  * @author Johao Smith Urbina González
  */
-public class Ejercicio6EstrucControl {
+public class Main {
 
     public static void main(String[] args) {      
         Scanner teclado = new Scanner(System.in);
- 
+
         System.out.print("Ingrese un numero entre 1 y 7: ");
         int dia = Integer.parseInt(teclado.nextLine());
- 
+
         switch (dia) {
             case 1:
                 System.out.println("Lunes");
